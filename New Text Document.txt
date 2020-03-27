@@ -1,0 +1,69 @@
+1. Create a folder in your desktop named "cv2"
+2. Then go to your browser and download "vscode" our IDE
+3. Then install vscode normally
+4. Then go to python.org and download the latest version of python for Windows
+5. Then go to google and type  "unofficial python packages for windows" then follow the first link.
+6. Download 3 major packages: Numpy, OpenCV and Pandas- version cp38 and 32BIT for all! It doesn't matter if you're on 64bit. Just install 32BIT!
+
+Or follow these to trace them
+
+a. numpy‑1.18.2+mkl‑cp38‑cp38‑win32.whl
+b. opencv_python‑4.2.0‑cp38‑cp38‑win32.whl
+c. pandas‑1.0.3‑cp38‑cp38‑win32.whl
+
+AT THIS POINT, JUMP TO STEP 7. YOU CAN COME BACK HERE LATER TO INSTALL GIT AND GITHUB
+--------------------------------------------------------------------------------------------------------
+6b. Go to your browser again and type GITHUB and go to the website.
+6c. Create an account and verify your email.
+6d. Then go to your fresh browser again and type GIT. Then follow that site "git-scm.com"
+6e. Click that link in a laptop screen saying "Download 2.26.0 for windows" to download.
+6f. Then go to your GITHUB online and create a Repository. A repository is like your online Folder. Git will be used to syncronize and store our codes. It's a version control tool to track changes in the cause of our codes.
+
+Major techniques in GIT
+"git status"
+"git add ."
+git commit -m"New commit"
+git push -u origin master
+
+FOLLOW THE VIDEO WEBINAR
+---------------------------------------------------------------------------------------------------------------------
+7. Open your Command Line Interface CMD through ADMIN Priviledge Mode Only, otherwise, it will not work
+Steps:
+a. Click on the Windows key + R and a dialog box will pop up
+b. Right on the box, type "cmd" and press CTRL + SHIFT + ENTER 
+c. This will launch you into the Command Line in Admin mode.
+
+7. Then upgrade your installer named "PIP" using "python -m pip install --upgrade pip"
+
+8. Then use "cd" to change directory and "ls or dir" to list directories whenever to navigate through
+
+9. Navigate to downloads and type "dir" to list out directories.
+
+10. Highlight and copy one at a time to install using "pip install "numpy‑1.18.2+mkl‑cp38‑cp38‑win32.whl" " 
+
+11. Do not include the quotation marks housing the pip in step 10.
+
+12. Do step 10 for all the other packages b and c in step 6.
+
+13. Test installation by going to your cmd again and typing "python"
+
+14. Then type "import numpy", and next line "import cv2"
+
+Then you are set.
+
+15. Use "exit()" to exit 
+
+Go to your VSCODE IDE
+
+But first...
+
+16. Go to your cmd again, and navigate to your folder or create one like this: type them as you see them below
+a. cd Desktop
+b. mkdir cv2
+c. cd cv2
+d. touch project1.py
+e. code .
+
+In step e of 16, it is 'code' first then space '.' a fullstop to launch into VSCODE through your workfolder
+
+17. Then follow the tutorial steps for the Coding Proper. We will first make a face detector along some up coming improvements and projects ahead. Ensure youre webcam works fine.
